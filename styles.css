@@ -3293,3 +3293,12 @@ body {
     top: 50%;
   }
 }
+
+@media (max-width: 600px) {
+  .fade-in-tagline {
+    opacity: 1 !important;
+    animation: none !important;
+    animation-delay: 0s !important;
+    transition: none !important;
+  }
+}
