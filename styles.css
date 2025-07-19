@@ -3267,8 +3267,12 @@ body {
 
 @media (max-width: 600px) {
   .hero-atg-title {
-    font-size: 6.2rem;
-    margin-top: 0.1rem;
+    font-size: 8.5rem;
+    margin-top: 0;
+  }
+  .adapt-train-grow-title {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
   }
 }
 
