@@ -516,7 +516,7 @@ body {
 .about-bg-title {
   font-family: var(--header-font);
   font-size: 2.5rem;
-  color: rgba(139,0,0,0.45);
+  color: #AE1E15 !important;
   position: absolute;
   top: -2.5rem;
   left: 0;
@@ -3301,4 +3301,20 @@ body {
     animation-delay: 0s !important;
     transition: none !important;
   }
+}
+
+@media (max-width: 600px) {
+  .about-bg-text, .about-story, .about-approach {
+    display: none !important;
+  }
+}
+
+footer p {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
 }
