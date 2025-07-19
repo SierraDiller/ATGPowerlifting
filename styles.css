@@ -3163,12 +3163,6 @@ body {
   }
 }
 
-@media (max-width: 600px) {
-  .adapt-train-grow-title {
-    font-size: 5vw;
-  }
-}
-
 @media (min-width: 1024px) {
   .adapt-train-grow-title {
     font-size: 3.5vw;
@@ -3271,25 +3265,31 @@ body {
     margin-top: 0;
   }
   .adapt-train-grow-title {
-    font-size: 1.2rem;
+    font-size: 3rem;
     margin-top: 2.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .adapt-train-grow-title {
-    font-size: 1rem;
+    font-size: 2.2rem;
   }
 }
 
 @media (max-width: 400px) {
   .adapt-train-grow-title {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
   }
 }
 
 @media (max-width: 350px) {
   .adapt-train-grow-title {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .adapt-train-grow-title {
+    top: 50%;
   }
 }
