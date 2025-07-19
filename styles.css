@@ -3372,3 +3372,18 @@ body {
     display: flex;
   }
 }
+
+.hero-atg-title {
+  font-size: 13rem;
+}
+
+@media (max-width: 600px) {
+  .hero-atg-title {
+    font-size: 7rem;
+    margin-top: 0;
+  }
+  .adapt-train-grow-title {
+    font-size: 2.2rem;
+    margin-top: 2.5rem;
+  }
+}
