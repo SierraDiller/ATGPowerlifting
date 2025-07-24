@@ -209,9 +209,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-
-  
-      
- 
+  const mobileNavMenu = document.getElementById('mobileNavMenu');
+  // Hamburger menu toggle for mobile nav
+  hamburger.addEventListener('click', function () {
+    if (window.innerWidth <= 900) {
+      mobileNavMenu.classList.toggle('active');
+      mobileNavMenu.style.display = mobileNavMenu.classList.contains('active') ? 'flex' : 'none';
+    }
+  });
+  // Close mobile menu when a link is clicked
+  document.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+      mobileNavMenu.classList.remove('active');
+      mobileNavMenu.style.display = 'none';
+    });
+  });
   
 }); 

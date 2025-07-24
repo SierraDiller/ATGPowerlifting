@@ -109,7 +109,7 @@ body {
   padding: 0;
   gap: 0.1rem;
   justify-content: flex-start;
-  margin-left: 3rem;
+  margin-left: 2rem;
   font-size: 0.85rem;
   letter-spacing: -0.5px;
 }
@@ -2052,7 +2052,8 @@ body {
   font-size: 1.08rem;
 }
 .meet-jacob-bio-text p:first-child {
-  text-indent: 2em;
+  margin-left: 0;
+  text-indent: 0;
 }
 @media (max-width: 1100px) {
   .jacob-photo-placeholder.large {
@@ -2202,7 +2203,8 @@ body {
   color: #EEEEEE;
 }
 .meet-jacob-bio-text p:first-child {
-  text-indent: 2em;
+  margin-left: 0;
+  text-indent: 0;
 }
 @media (max-width: 1200px) {
   .meet-jacob-photo-bio, .meet-jacob-bio-text {
@@ -3353,4 +3355,59 @@ footer p {
   .edo-tagline {
     font-size: 1rem;
   }
+}
+
+@media (max-width: 900px) {
+  .meet-jacob-photo-bio {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .meet-jacob-photo-bio img {
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media (max-width: 900px) {
+  .hamburger {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    z-index: 2100;
+  }
+  .mobile-nav-menu {
+    position: fixed;
+    top: 60px;
+    right: 18px;
+    left: auto;
+    max-width: 90vw;
+    min-width: 180px;
+    background: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    z-index: 2000;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+}
+
+.mobile-nav-link {
+  color: #5D0000;
+  text-decoration: none;
+  font-family: var(--header-font);
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0;
+  margin: 0.2rem 0;
+  transition: color 0.2s;
+  display: block;
+  background: none;
+}
+.mobile-nav-link:hover, .mobile-nav-link:focus {
+  color: #AE1E15;
+  background: none;
 }
