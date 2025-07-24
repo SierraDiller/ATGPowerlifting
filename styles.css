@@ -3363,17 +3363,15 @@ footer p {
     margin-right: 2rem;
   }
   .meet-jacob-photo-bio img {
-    max-width: 180px;
-    max-height: 180px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 320px;
+    max-height: 380px;
   }
 }
 
 @media (max-width: 900px) {
   .hamburger {
     position: fixed;
-    top: 18px;
+    top: 8px;
     right: 18px;
     z-index: 2100;
   }
@@ -3410,4 +3408,20 @@ footer p {
 .mobile-nav-link:hover, .mobile-nav-link:focus {
   color: #AE1E15;
   background: none;
+}
+
+@media (max-width: 900px) {
+  .testimonial-photo-corner {
+    max-width: 170px;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 901px) {
+  .meet-jacob-photo-bio img {
+    max-width: 620px;
+    max-height: 740px;
+  }
 }
