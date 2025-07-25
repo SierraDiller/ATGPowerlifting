@@ -3425,3 +3425,41 @@ footer p {
     max-height: 740px;
   }
 }
+
+@media (max-width: 900px) {
+  .testimonial-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial-photo-col {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .testimonial-quote-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .testimonial-row-logan {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .testimonial-row-logan .testimonial-photo-col,
+  .testimonial-row-logan .testimonial-quote-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-row-logan .testimonial-photo-col {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+}
